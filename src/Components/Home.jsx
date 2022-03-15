@@ -8,8 +8,7 @@ function Home() {
         class="carousel slide"
         data-bs-ride="carousel">
         <div class="carousel-indicators">
-          <button
-            type="button"
+          <button type="button"
             data-bs-target="#carouselExampleIndicators"
             data-bs-slide-to="0"
             class="active"
@@ -46,42 +45,42 @@ function Home() {
             <img
               src="/assets/banner-img.jpg"
               class="d-block w-100"
-              alt="..."
+              alt="SALE"
               height="500px"/>
           </div>
           <div class="carousel-item">
             <img
               src="/assets/ban8.jpg"
               class="d-block w-100"
-              alt="..."
+              alt="SALE"
               height="500px"/>
           </div>
           <div class="carousel-item">
             <img
               src="/assets/ban4.jpg"
               class="d-block w-100"
-              alt="..."
+              alt="SALE"
               height="500px"/>
           </div>
           <div class="carousel-item">
             <img
               src="/assets/ban10.jpg"
               class="d-block w-100"
-              alt="..."
+              alt="SALE"
               height="500px"/>
           </div>
           <div class="carousel-item">
             <img
               src="/assets/ban5.jpg"
               class="d-block w-100"
-              alt="..."
+              alt="SALE"
               height="500px"/>
           </div>
           <div class="carousel-item">
             <img
               src="/assets/ban3.jpg"
               class="d-block w-100"
-              alt="..."
+              alt="SALE"
               height="500px"/>
           </div>
         </div>
