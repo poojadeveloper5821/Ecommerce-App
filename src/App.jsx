@@ -5,7 +5,7 @@ import Home from'./Components/Home';
 import About from'./Components/About';
 import Product from './Components/Product';
 import Contact from './Components/Contact';
-import {Routes,Route,NavLink} from 'react-router-dom';
+import {Routes,Route} from 'react-router-dom';
 
 
 
@@ -18,7 +18,7 @@ function App() {
       <Route exact path="about" element={<About />} />
       <Route exact path="product" element={<Product />} />
       <Route exact path="contact" element={<Contact />} />
-      <NavLink to='/'/>
+      {/* <NavLink to='/'/> */}
     </Routes>
     <Footer />
     </>
