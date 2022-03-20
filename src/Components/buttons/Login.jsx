@@ -1,11 +1,12 @@
 import React from "react";
-//comment
-function Login() {
+
+const Login = () => {
   return (
-    <> {/* <!-- Button trigger modal --> */}
+    <>
+      {/* <!-- Button trigger modal --> */}
       <button
         type="button"
-        className="btn btn-outline-primary ms-auto"
+        className="btn btn-outline-primary ms-2"
         data-bs-toggle="modal"
         data-bs-target="#loginModal">
         <span className="fa fa-sign-in me-1"></span>Login
@@ -21,7 +22,7 @@ function Login() {
           <div className="modal-content">
             <div className="modal-header">
               <h5 className="modal-title" id="loginModal">
-                Login
+                Register
               </h5>
               <button
                 type="button"
@@ -31,44 +32,42 @@ function Login() {
             </div>
             <div className="modal-body">
               <button className="btn btn-primary w-100 mb-4">
-                <span className="fa fa-google me-2"></span>Sign in with Google
+                <span className="fa fa-google me-2"></span>Sign up with Google
               </button>
               <button className="btn btn-primary w-100 mb-4">
-                <span className="fa fa-facebook me-2"></span>Sign in with Facebook
+                <span className="fa fa-facebook me-2"></span>Sign up with
+                Facebook
               </button>
               <form>
                 <div className="mb-3">
-                  <label htmlFor="exampleInputEmail1" className="form-label">
-                    Email address
+                  <label htmlFor="exampleInput" className="form-label">
+                    Username
                   </label>
                   <input
-                    type="email"
+                    type="text"
                     className="form-control"
-                    id="exampleInputEmail1"
-                    aria-describedby="emailHelp" />
-                  <div id="emailHelp" className="form-text">
-                    We'll never share your email with anyone else.
-                  </div>
-                </div>
+                    id="exampleInput" />
+                </div>    
                 <div className="mb-3">
                   <label htmlFor="exampleInputPassword1" className="form-label">
                     Password
                   </label>
                   <input
                     type="password"
-                    className="form-control"
-                    id="exampleInputPassword1" />
+                    className="form-control" />
                 </div>
                 <div className="mb-3 form-check">
                   <input
                     type="checkbox"
                     className="form-check-input"
-                    id="exampleCheck1"/>
-                  <label className="form-check-label" for="exampleCheck1">
+                   />
+                  <label className="form-check-label" htmlFor="exampleCheck1">
                     Check me out
                   </label>
                 </div>
-                <button type="submit" className="btn btn-outline-primary w-100 mb-5">
+                <button
+                  type="submit"
+                  className="btn btn-outline-primary w-100 mb-5">
                   Submit
                 </button>
               </form>
@@ -78,6 +77,6 @@ function Login() {
       </div>
     </>
   );
-}
+};
 
 export default Login;
